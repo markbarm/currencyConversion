@@ -1,9 +1,16 @@
 package application;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public class Program {
 
 	public static void main(String[] args) {
-		System.out.println("teste1");
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		sc.close();
+		
 	}
 
 }
