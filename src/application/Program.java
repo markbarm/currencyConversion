@@ -19,8 +19,6 @@ public class Program {
 		
 		sc.close();
 		
-		//alterado
-		
 	}
 
 }
